@@ -56,7 +56,7 @@ const Home = () => {
                 onClick={() => setToggleSidebar(false)}
               />
             </div>
-            <Sidebar user={user && user} closeTogle={setToggleSidebar} />
+            <Sidebar user={user && user} closeToggle={setToggleSidebar} />
           </div>
         )}
       </div>
